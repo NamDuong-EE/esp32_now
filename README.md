@@ -1,6 +1,6 @@
 # ESP32 ESP-NOW Long Range
 
-Dự án ESP-NOW sử dụng chế độ Long Range (LR) với tính năng test băng thông và packet loss.
+Kiểm tra tính khả thi của ESP-NOW khi sử dụng chế độ Long Range (LR) 
 
 ## Cách sử dụng:
 - Nạp `sketch_esp32_gui.ino` vào ESP32 **gửi**
@@ -30,10 +30,8 @@ Dự án ESP-NOW sử dụng chế độ Long Range (LR) với tính năng test 
 | RSSI Min/Max | Khoảng dao động RSSI |
 
 ## Lưu ý:
-- ESP-NOW LR Mode giảm tốc độ nhưng tăng tầm xa (~1km)
-- Cả 2 board đều phải bật LR mode
+- Cả 2 mạch đều phải bật LR mode
 - AP phát WiFi thường (11b/g/n) để điện thoại kết nối xem debug
-- Nhấn nút **Reset Test** trên web để xóa kết quả cũ
 
 ## Tham khảo:
 - [ESP-NOW Tutorial](https://randomnerdtutorials.com/esp-now-esp32-arduino-ide/)
